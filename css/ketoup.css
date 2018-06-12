@@ -47,7 +47,9 @@
 
     }
 
-
+.header-child{
+    background-color: white;
+}
 
     .search {
         margin-left: 35% !important;
@@ -76,6 +78,18 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .child-nav{
+        width: 85% !important;
+        margin: auto;
+    }
+
+    .search input{
+        width: 85% !important;
+    }
+}
+
 
 .header {
     background-color: #F8F9FA;
@@ -221,6 +235,8 @@
 }
 
 .nav-btn{
+
+
     margin-left: 20px;
     color: white;
     font-size: 16px;
@@ -258,6 +274,10 @@
     margin-top: 10px;
     margin-left: 2%;
 }
+.login p,.cart p{
+    color: black;
+}
+
 
 .search input {
     border-radius: 0px;
@@ -265,7 +285,7 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 190px;
+    width: 100%;
     float: right;
 }
 
@@ -276,8 +296,7 @@
     font-weight: 900;
     top: 5px;
     right: 5px;
-
-    /*margin-left: 70%;*/
+    cursor: pointer;
 }
 
 
@@ -402,4 +421,17 @@ a{
 }
 a:hover{
     text-decoration: none !important;
+}
+
+
+.nav-btn a{
+    color: white;
+}
+.nav-btn a:hover{
+    color: white;
+}
+
+.child-nav{
+    width: 84%;
+    margin: auto;
 }
