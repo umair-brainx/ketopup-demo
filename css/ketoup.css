@@ -19,6 +19,7 @@
     .slick-next, .slick-prev {
         width: 60px !important;
         height: 40px !important;
+        z-index: 10;
     }
 
     .desktop {
